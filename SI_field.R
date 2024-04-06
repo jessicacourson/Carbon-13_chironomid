@@ -1,7 +1,7 @@
 #Steps:
 #Read the data from the CSV file into R.
 #Calculate the average δ13C for each category in the "comment" column.
-#Plot the average δ13C for sediment, burrow, and larvae.
+#Plot the average δ13C for sediment, tube, and larvae.
 #Run ANOVA to see if there are significant differences between the groups.
 
 #Install packages. Just do this once
@@ -12,8 +12,8 @@ library(tidyverse)
 
 # Read the data from the CSV file 
 #copy your file path and paste it between the quotes with forward slashes
-setwd("C:/Users/16028/Desktop/Thesis/SI_code_figures/")
-data <- read.csv("SI_field.csv")
+setwd("")
+data <- read.csv("")
 
 # View the first few rows of the data to understand its structure
 names(data)
